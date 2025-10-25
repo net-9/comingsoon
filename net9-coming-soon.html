@@ -12,9 +12,37 @@
       height: 100vh;
       background: url("net9.png") no-repeat center center fixed;
       background-size: cover;
+      display: flex;
+      justify-content: center;
+      align-items: flex-end;
+      font-family: "Segoe UI", Roboto, Arial, sans-serif;
+      text-align: center;
+    }
+    .bottom-text {
+      margin-bottom: 40px;
+      color: #ff2a2a; /* bright red */
+      font-weight: 300; /* thinner font */
+      letter-spacing: 2px; /* spaced out for laser feel */
+      text-shadow:
+        0 0 5px #ff0000,
+        0 0 10px #ff0000,
+        0 0 20px #ff3333,
+        0 0 40px #ff3333;
+    }
+    .bottom-text h2 {
+      font-size: 1.2rem;
+      margin: 0 0 0.3rem;
+    }
+    .bottom-text p {
+      font-size: 1rem;
+      margin: 0;
     }
   </style>
 </head>
 <body>
+  <div class="bottom-text">
+    <h2>COMING SOON</h2>
+    <p>paul@net9.be</p>
+  </div>
 </body>
 </html>
