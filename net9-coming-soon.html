@@ -12,7 +12,9 @@
       height: 100vh;
       display: grid;
       place-items: center;
-      background: linear-gradient(135deg, #0b0f14 0%, #1e3a8a 100%);
+      /* Background image instead of gradient */
+      background: url("net9.png") no-repeat center center fixed;
+      background-size: cover;
       color: #e5e7eb;
       font-family: system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, "Helvetica Neue", Arial;
       text-align: center;
@@ -22,7 +24,7 @@
       height: 80px;
       margin: 0 auto 1rem;
       border-radius: 16px;
-      background: linear-gradient(135deg, #2563eb, #3b82f6);
+      background: rgba(0,0,0,0.6); /* semi-transparent to stand out */
       display: grid;
       place-items: center;
       font-size: 2rem;
@@ -33,6 +35,7 @@
     h1 {
       font-size: clamp(2rem, 5vw + 1rem, 4rem);
       margin: 0 0 1rem;
+      color: #ffffff; /* stronger contrast on dark image */
     }
     p {
       font-size: 1.25rem;
